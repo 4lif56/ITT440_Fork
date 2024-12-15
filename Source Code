@@ -7,7 +7,7 @@
 
 // Signal handler function for handling Ctrl + C interrupt
 void handle_interrupt(int sig) {
-    printf("\nInterrupt detected! Exiting program.\n");
+    printf("\nExiting program...\n");
     exit(0);
 }
 
